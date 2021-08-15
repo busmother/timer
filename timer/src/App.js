@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './App.css';
 import Timer from './timer.js'
+import Reset from './reset.js'
+import Control from './control.js'
 
 class App extends Component {
 
@@ -8,6 +10,7 @@ class App extends Component {
       return (
       <div className="App">
         <Timer/>
+        <Reset/>
       </div>
     );
   }
